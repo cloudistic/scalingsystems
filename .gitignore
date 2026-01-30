@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# DVC
+.dvc/tmp/
+.dvc/cache/
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Model files (large binaries)
+*.pkl
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.pth
+*.pt
+*.joblib
+
+# Data files (should be tracked by DVC)
+*.csv
+*.json
+*.xml
+*.parquet
+!params.yaml
+!dvc.yaml
+!dvc.lock
+!*.dvc
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
